@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="GouninetGuillaume_SHOP:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="GouninetGuillaume_SHOP/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="GouninetGuillaume_SHOP" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -12,6 +12,6 @@
 </head>
 <body>
 <h1>Mon menus</h1>
-<input type="button" value="Add" onclick='<jsp:forward page = "/WEB-INF/Navigation/Checkout.jsp"/>'>
+<a href="${pageContext.request.contextPath}/Checkout"><img src="https://www.icone-png.com/png/14/13561.png"></a>
 </body>
 </html>

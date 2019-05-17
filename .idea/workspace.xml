@@ -6,19 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3391029e-b999-4b59-815c-bc0c6339bde1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/ForwardServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/500.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Accueil.jsp" afterDir="false" />
+    <list default="true" id="3391029e-b999-4b59-815c-bc0c6339bde1" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/web/Styles/Flexbox.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/Accueil.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/classes/ch/hesge/gouninet/Servlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GouninetGuillaume_SHOP/ch/hesge/gouninet/Servlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/AccueilServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/AccueilServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Accueil.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/Style/Layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/Accueil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/Accueil.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Style/Layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Accueil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/Accueil.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,15 +74,19 @@
       <file leaf-file-name="Accueil.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/Accueil.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="391">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Layout.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/Style/Layout.scss">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Flexbox.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/Styles/Flexbox.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
@@ -161,8 +159,11 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/ForwardServlet.java" />
         <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Css/Layout.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/Accueil.jsp" />
         <option value="$PROJECT_DIR$/web/Style/Layout.scss" />
+        <option value="$PROJECT_DIR$/web/Style/Layout.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/Accueil.jsp" />
+        <option value="$PROJECT_DIR$/web/Styles/Flexbox.css" />
+        <option value="$PROJECT_DIR$/web/Styles/Flexbox.scss" />
       </list>
     </option>
   </component>
@@ -232,7 +233,7 @@
               <item name="ESHOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="ESHOP" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="Style" type="462c0819:PsiDirectoryNode" />
+              <item name="Styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ESHOP" type="b2602c69:ProjectViewProjectNode" />
@@ -363,12 +364,12 @@
       <workItem from="1556873317290" duration="4776000" />
       <workItem from="1557476481411" duration="1306000" />
       <workItem from="1558084438673" duration="1148000" />
-      <workItem from="1558086100282" duration="5100000" />
+      <workItem from="1558086100282" duration="8404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12330000" />
+    <option name="totallyTimeSpent" value="15634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -514,13 +515,6 @@
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/500.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/ForwardServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -534,15 +528,29 @@
     <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Css/Layout.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Accueil.jsp">
+    <entry file="file://$PROJECT_DIR$/web/Style/Layout.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="238">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Style/Layout.scss">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Accueil.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Styles/Flexbox.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

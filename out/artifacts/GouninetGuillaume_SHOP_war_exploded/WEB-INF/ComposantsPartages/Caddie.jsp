@@ -9,5 +9,5 @@
 <a href="${pageContext.request.contextPath}/Checkout"><img src="https://www.icone-png.com/png/14/13561.png" width="50" height="50"></a>
 
 <%--<% Caddie c = new Caddie(); %>
-<label><%=c.getTotal()%></label>
+<label><%=c.getNbTotal()%></label>
 --%>

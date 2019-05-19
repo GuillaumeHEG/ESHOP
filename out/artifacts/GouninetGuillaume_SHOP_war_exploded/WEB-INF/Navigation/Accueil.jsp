@@ -16,14 +16,11 @@
         <div class="wrap">
             <!-- content and sidebar are swapped. They can be made to show in the order above with CSS -->
             <div class="content">
-                <ul class="flex-container">
-                    <li class="flex-item">1</li>
-                    <li class="flex-item">2</li>
-                    <li class="flex-item">3</li>
-                    <li class="flex-item">4</li>
-                    <li class="flex-item">5</li>
-                    <li class="flex-item">6</li>
-                </ul>
+                <jsp:include page="/WEB-INF/ComposantsPartages/Produit.jsp" >
+                    <jsp:param name="firstname" value="Chaitanya" />
+                    <jsp:param name="middlename" value="Pratap" />
+                    <jsp:param name="lastname" value="Singh" />
+                </jsp:include>
             </div>
             <div class="sidebar"></div>
         </div>

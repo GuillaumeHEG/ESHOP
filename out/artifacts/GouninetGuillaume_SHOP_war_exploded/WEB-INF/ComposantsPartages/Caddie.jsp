@@ -6,11 +6,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Caddie</title>
-</head>
-<body>
+<a href="${pageContext.request.contextPath}/Checkout"><img src="https://www.icone-png.com/png/14/13561.png" width="50" height="50"></a>
 
-</body>
-</html>
+<%--<% Caddie c = new Caddie(); %>
+<label><%=c.getTotal()%></label>
+--%>

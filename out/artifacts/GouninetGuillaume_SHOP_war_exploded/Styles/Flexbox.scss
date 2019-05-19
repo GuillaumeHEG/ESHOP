@@ -1,5 +1,27 @@
 @import "compass/css3";
 
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+#imgAcc {
+    float:left;
+}
+
+.main{
+    padding-top: 100px;
+}
+
+.header{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header .content{
+    text-align: right;
+}
+
 .flex-container {
     padding: 0;
     margin: 0;

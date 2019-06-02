@@ -13,6 +13,34 @@
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/Styles/EShop.css">
 </head>
 <body>
+    <div class="container-checkout">
+        <table class="table-checkout">
+            <tr class="row">
+               <td class="checkout-td-one">
+                   TITRE PRODUIT
+               </td>
+               <td class="checkout-td-two">
+                   <div class="table-cell-qte-checkout">
 
+                       <p class="table-cell-txt-checkout">QUANTITE</p>
+                       <div class="table-cell-btn-checkout">
+                           <form method="post">
+                               <button class="table-cell-btn-plus-checkout" type="submit">+</button>
+                           </form>
+                           <form method="post">
+                               <button class="table-cell-btn-minus-checkout" type="submit">-</button>
+                           </form>
+                       </div>
+                   </div>
+               </td>
+               <td class="checkout-td-three">
+                   SUPPRIMER
+               </td>
+               <td class="checkout-td-four">
+                   PRIX TOTAL
+               </td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>

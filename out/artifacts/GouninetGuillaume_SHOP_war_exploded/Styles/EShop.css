@@ -1,7 +1,7 @@
 /* Gouninet Guillaume - CSS Application EShop */
 
 
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 /* ==================================================== */
 /* Home Page */
 /* ==================================================== */
@@ -13,6 +13,7 @@ html{
     background-size: cover;
     margin-left:5%;
     margin-right:5%;
+    font-family: "Open Sans";
 }
 
 .description-txt-homepage{
@@ -71,13 +72,14 @@ html{
     margin:0;
 }
 
+
 /* ==================================================== */
 /* Container Produit */
 /* ==================================================== */
 .container-product{
     position: relative;
     margin:0;
-    height: 350px ;
+    height: 300px ;
     width: 32%;
     display: flex;
     justify-content: center;
@@ -124,14 +126,86 @@ html{
 
 .container-caddie-product{
     position:absolute;
-    top: 88%;
+    top: 78%;
 }
 
 .btn-caddie-product{
     cursor: pointer;
     text-align: center;
     background: rgba(255, 255, 255, 0.5);
-    padding: 10px 10px 10px 10px ;
     border-radius: 3px;
     border:none;
+    padding: 10px 10px 10px 10px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.btn-caddie-product img{
+    width: 30px;
+    padding-top:4%;
+}
+
+/* ==================================================== */
+/* Tableau Checkout */
+/* ==================================================== */
+
+
+table.table-checkout{
+    border-collapse:collapse;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+
+}
+
+td, th{
+   border: 1px solid gray;
+   padding: 10px 15px;
+   text-align: center;
+}
+
+.checkout-td-one{
+    width: 50%;
+}
+
+.checkout-td-two{
+    width: 20%;
+}
+
+.checkout-td-three{
+    width: 10%;
+}
+
+.checkout-td-four{
+    width: 20%;
+}
+
+.table-cell-qte-checkout, .table-cell-btn-checkout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding:0;
+    margin:0;
+}
+
+.table-cell-btn-checkout{
+    justify-content: space-between;
+    padding-top:10px;
+}
+
+.table-cell-btn-minus-checkout, .table-cell-btn-plus-checkout{
+    margin-left: 10px;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 2px;
+    border:none;
+}
+
+.table-cell-txt-checkout{
+    text-align:center;
 }

@@ -9,16 +9,17 @@
 
 <div class="container-product">
     <a class="container-product-link" href="lien"></a>
-        <img class="img-background-product" src="${pageContext.request.contextPath}/Pictures/PictureTst.jpg" alt="tst">
+        <img class="img-background-product" src="${pageContext.request.contextPath}/Pictures/Product1.jpg" alt="tst">
         <div class="container-title-product" >
             <div class="title-product">
                 <p class="title-text-product">Titre du produit</p>
             </div>
         </div>
     <div class="container-caddie-product">
-        <form method="post" action="${pageContext.request.contextPath}/Caddie.jsp">
+        <form method="post" action="${pageContext.request.contextPath}/Caddie">
             <button class="btn-caddie-product" type="submit">
-                Coucou
+                <p>CHF 999.-</p>
+                <img src="${pageContext.request.contextPath}/Pictures/Caddie.png" alt="Checkout">
             </button>
         </form>
     </div>

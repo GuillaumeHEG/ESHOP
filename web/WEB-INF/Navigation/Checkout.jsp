@@ -6,10 +6,11 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ include file= "/WEB-INF/ComposantsPartages/Menu.jsp" %>
+<%@ include file= "/WEB-INF/SharedComponents/Menu.jsp" %>
 <html>
 <head>
-    <title>Checkout</title>
+    <title>Checkout - EShop</title>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/Styles/EShop.css">
 </head>
 <body>
 

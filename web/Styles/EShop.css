@@ -1,6 +1,24 @@
 /* Gouninet Guillaume - CSS Application EShop */
 
 
+
+/* ==================================================== */
+/* Home Page */
+/* ==================================================== */
+html{
+    background: url("/Pictures/cat.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.description-txt-homepage{
+    padding-right: 35%;
+    text-align: justify;
+}
 /* ==================================================== */
 /* Menu */
 /* ==================================================== */

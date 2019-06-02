@@ -12,5 +12,5 @@
             <img class="img-mnu" src="${pageContext.request.contextPath}/Pictures/Home.png" width="50" height="50">
         </a>
     </div>
-    <jsp:include page="/WEB-INF/ComposantsPartages/Caddie.jsp" />
+    <jsp:include page="/WEB-INF/SharedComponents/Caddie.jsp" />
 </div>

@@ -6,9 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<br>
 
-
-<ul class="flex-container">
-    <li class="flex-item">${param.firstname}<br>${param.middlename}<br></li>
-</ul>
+<div class="flex-container">
+    <div class="flex-item">${param.nomProduit}<br>${param.prixProduit}<br></div>
+</div>

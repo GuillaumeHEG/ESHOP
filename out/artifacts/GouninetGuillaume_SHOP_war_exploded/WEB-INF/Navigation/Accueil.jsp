@@ -12,18 +12,18 @@
 </head>
 <body>
 <%@ include file= "/WEB-INF/ComposantsPartages/Menu.jsp" %>
-    <div class="main">
-        <div class="wrap">
+    <main class="main">
             <!-- content and sidebar are swapped. They can be made to show in the order above with CSS -->
             <div class="content">
+                <% for (int i=0; i<9; i++) { %>
                 <jsp:include page="/WEB-INF/ComposantsPartages/Produit.jsp" >
-                    <jsp:param name="firstname" value="Chaitanya" />
-                    <jsp:param name="middlename" value="Pratap" />
-                    <jsp:param name="lastname" value="Singh" />
+                    <jsp:param name="idProduit" value="#" />
+                    <jsp:param name="nomProduit" value="#" />
+                    <jsp:param name="prixProduit" value="#" />
                 </jsp:include>
+                <%} %>
             </div>
             <div class="sidebar"></div>
-        </div>
-    </div>
+    </main>
 </body>
 </html>

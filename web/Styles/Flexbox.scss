@@ -45,6 +45,14 @@ img {
     line-height: 150px;
     color: white;
     font-weight: bold;
-    font-size: 3em;
-    text-align: center;
+    font-size: 1em;
+    text-align: left;
+    display : flex;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

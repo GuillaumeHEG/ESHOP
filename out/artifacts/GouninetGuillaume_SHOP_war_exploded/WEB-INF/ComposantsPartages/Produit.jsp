@@ -7,6 +7,19 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<div class="flex-container">
-    <div class="flex-item">${param.nomProduit}<br>${param.prixProduit}<br></div>
+<div class="container-product">
+    <a class="container-product-link" href="lien"></a>
+        <img class="img-background-product" src="${pageContext.request.contextPath}/Pictures/PictureTst.jpg" alt="tst">
+        <div class="container-title-product" >
+            <div class="title-product">
+                <p class="title-text-product">Titre du produit</p>
+            </div>
+        </div>
+    <div class="container-caddie-product">
+        <form method="post" action="${pageContext.request.contextPath}/Caddie.jsp">
+            <button class="btn-caddie-product" type="submit">
+                Coucou
+            </button>
+        </form>
+    </div>
 </div>

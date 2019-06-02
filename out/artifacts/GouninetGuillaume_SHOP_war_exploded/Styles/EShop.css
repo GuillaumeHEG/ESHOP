@@ -1,0 +1,119 @@
+/* Gouninet Guillaume - CSS Application EShop */
+
+
+/* ==================================================== */
+/* Menu */
+/* ==================================================== */
+.menu-top{
+    flex-direction: row-reverse;
+    padding-top: 10px;
+}
+
+.container-mnu {
+    display: flex;
+    margin-bottom: 10px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-mnu .img-mnu {
+    max-width: 100px;
+}
+
+/* ==================================================== */
+/* Caddie */
+/* ==================================================== */
+.container-caddie{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.container-caddy .img-caddie{
+    max-width: 100px;
+}
+
+.container-caddie .sum-caddie-mnu{
+    text-align: center;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+/* ==================================================== */
+/* Container Produits */
+/* ==================================================== */
+.container-prds {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding:0;
+    margin:0;
+}
+
+/* ==================================================== */
+/* Container Produit */
+/* ==================================================== */
+.container-product{
+    position: relative;
+    margin:0;
+    height: 350px ;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-product a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+.container-product-link {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    align-items: center;
+}
+
+.img-background-product {
+    width: 100%;
+}
+
+.container-title-product{
+    position: absolute;
+    top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 1%;
+    right: 1%;
+}
+
+.title-product{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px 10px 10px 10px ;
+    border-radius: 2px;
+}
+
+.title-text-product {
+    font-weight: bold;
+    margin:0;
+    padding: 0;
+}
+
+.container-caddie-product{
+    position:absolute;
+    top: 88%;
+}
+
+.btn-caddie-product{
+    cursor: pointer;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px 10px 10px 10px ;
+    border-radius: 3px;
+    border:none;
+}

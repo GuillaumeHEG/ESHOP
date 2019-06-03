@@ -41,6 +41,14 @@
                </td>
             </tr>
         </table>
+        <div class="container-sum-checkout">
+            <h3>Total </h3>
+            <h3>CHF 1998.-</h3>
+        </div>
+        <div class="container-pay-checkout">
+            <p><a href="${pageContext.request.contextPath}/">Back to shipping</a></p>
+            <h3><a href="${pageContext.request.contextPath}/">Pay</a></h3>
+        </div>
     </div>
 </body>
 </html>

@@ -126,7 +126,7 @@ html{
 
 .container-caddie-product{
     position:absolute;
-    top: 78%;
+    top: 84%;
 }
 
 .btn-caddie-product{
@@ -135,7 +135,6 @@ html{
     background: rgba(255, 255, 255, 0.5);
     border-radius: 3px;
     border:none;
-    padding: 10px 10px 10px 10px ;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -208,4 +207,14 @@ td, th{
 
 .table-cell-txt-checkout{
     text-align:center;
+}
+
+.container-sum-checkout, .container-pay-checkout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding:0;
+    margin:0;
 }

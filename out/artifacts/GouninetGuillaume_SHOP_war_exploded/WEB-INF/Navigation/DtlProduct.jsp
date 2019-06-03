@@ -6,12 +6,14 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ include file= "/WEB-INF/SharedComponents/Menu.jsp" %>
 <html>
-<head>
-    <title>Details - EShop</title>
-</head>
-<body>
-
-</body>
+    <head>
+        <title>Product - EShop</title>
+        <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/Styles/EShop.css">
+    </head>
+    <body>
+        <div class="menu-top">
+            <jsp:include page="/WEB-INF/SharedComponents/Menu.jsp" />
+        </div>
+    </body>
 </html>

@@ -46,7 +46,7 @@
         </div>
         <div class="container-pay-checkout">
             <p><a href="${pageContext.request.contextPath}/">Back to shipping</a></p>
-            <h3><a href="${pageContext.request.contextPath}/">Pay</a></h3>
+            <h3><a href="${pageContext.request.contextPath}/Payment">Pay</a></h3>
         </div>
     </div>
 </body>

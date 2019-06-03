@@ -14,7 +14,7 @@
 </head>
 <body>
 <%--  Faire une boucle pour récupérer et afficher tout les produits  --%>
-<jsp:include page="/WEB-INF/SharedComponents/Produit.jsp" >
+<jsp:include page="/WEB-INF/SharedComponents/Product.jsp" >
     <jsp:param name="idProduit" value="#" />
     <jsp:param name="nomProduit" value="#" />
     <jsp:param name="prixProduit" value="#" />

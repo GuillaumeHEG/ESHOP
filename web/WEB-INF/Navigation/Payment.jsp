@@ -61,7 +61,7 @@
             <input placeholder="Email" type="email" />
             <input placeholder="Card number" type="text" />
             <input placeholder="MM/YY" type="month" />
-            <button type="submit">Pay Now</button>
+            <button action="${pageContext.request.contextPath}/Styles/EShop.css" type="submit">Pay Now</button>
         </form>
 </div>
 </body>

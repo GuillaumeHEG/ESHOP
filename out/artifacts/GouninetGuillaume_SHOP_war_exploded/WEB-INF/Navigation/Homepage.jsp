@@ -30,7 +30,7 @@
                 </div>
                 <div class="container-prds">
                     <% for (int i=0; i<3; i++) { %>
-                    <jsp:include page="/WEB-INF/SharedComponents/Produit.jsp" >
+                    <jsp:include page="/WEB-INF/SharedComponents/Product.jsp" >
                         <jsp:param name="idProduit" value="#" />
                         <jsp:param name="nomProduit" value="#" />
                         <jsp:param name="prixProduit" value="#" />

@@ -20,7 +20,7 @@
                 <!-- content and sidebar are swapped. They can be made to show in the order above with CSS -->
                 <div class="container-description-homepage">
                     <div>
-                        <h1 class="title-txt-homepage">Welcome to E-Shop</h1>
+                        <h1 class="title-txt-homepage">WELCOME TO E-SHOP</h1>
                     </div>
                     <div class="description-txt-homepage">
                         <p>

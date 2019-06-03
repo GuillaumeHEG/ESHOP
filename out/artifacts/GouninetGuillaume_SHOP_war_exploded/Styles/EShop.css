@@ -223,3 +223,62 @@ td, th{
     padding:0;
     margin:0;
 }
+
+/* ==================================================== */
+/* Detail Product */
+/* ==================================================== */
+
+.title-dtlproduct{
+    margin:0;
+}
+
+.img-dtlproduct{
+    width:50%;
+    height: 230px;
+    padding-left:20%;
+    padding-bottom: 5px;
+}
+
+.container-dtlproduct{
+    display: flex;
+    flex-direction: row;
+    margin-top:2%;
+}
+.container-first-dtlproduct{
+    width: 60%;
+    padding: 0;
+    margin:0;
+}
+
+.container-second-dtlproduct{
+    width:40%;
+    padding:0;
+    margin:0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.description-dtlproduct{
+    text-align: justify;
+}
+.container-caddie-dtlproduct{
+    position:absolute;
+    top: 80%;
+}
+
+.btn-caddie-dtlproduct{
+    cursor: pointer;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    border:none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.btn-caddie-dtlproduct img{
+    width: 30px;
+    padding-top:4%;
+}

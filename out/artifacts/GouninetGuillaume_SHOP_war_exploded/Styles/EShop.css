@@ -20,6 +20,11 @@ html{
     padding-right: 35%;
     text-align: justify;
 }
+
+.link-description-homepage{
+    text-decoration:none;
+    color:black;
+}
 /* ==================================================== */
 /* Menu */
 /* ==================================================== */

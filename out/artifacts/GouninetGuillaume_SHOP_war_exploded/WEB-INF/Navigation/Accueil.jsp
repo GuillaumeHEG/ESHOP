@@ -11,18 +11,12 @@
         <title>Accueil - EShop</title>
         <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/Styles/EShop.css">
     </head>
-
-
-
-
-
-
-
 <body>
     <div class="menu-top">
         <jsp:include page="/WEB-INF/SharedComponents/Menu.jsp" />
     </div>
         <div class="homepage">
+            <a href ="${pageContext.request.contextPath}/LstProducts" class="link-description-homepage">
                 <!-- content and sidebar are swapped. They can be made to show in the order above with CSS -->
                 <div class="container-description-homepage">
                     <div>
@@ -43,6 +37,7 @@
                     </jsp:include>
                     <%} %>
                 </div>
+            </a>
         </div>
 </body>
 </html>

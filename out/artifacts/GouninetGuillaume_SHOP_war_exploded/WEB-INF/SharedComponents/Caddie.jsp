@@ -10,7 +10,7 @@
     <a href="${pageContext.request.contextPath}/Checkout">
         <img class="img-caddie" src="${pageContext.request.contextPath}/Pictures/Caddie.png" width="50" height="50">
     </a>
-    <p class="sum-caddie-mnu">Total</p>
+    <p class="sum-caddie-mnu">${nbPrdCaddie}</p>
 </div>
 <%--<% Caddie c = new Caddie(); %>
 <label><%=c.getNbTotal()%></label>

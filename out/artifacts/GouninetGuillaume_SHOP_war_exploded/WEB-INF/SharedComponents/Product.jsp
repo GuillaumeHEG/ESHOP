@@ -16,7 +16,7 @@
             </div>
         </div>
     <div class="container-caddie-product">
-        <form method="post" action="${pageContext.request.contextPath}/Caddie">
+        <form method="post" action="${pageContext.request.contextPath}/Caddie/add">
             <button class="btn-caddie-product" type="submit">
                 <p>CHF 999.-</p>
                 <img src="${pageContext.request.contextPath}/Pictures/Caddie.png" alt="Checkout">

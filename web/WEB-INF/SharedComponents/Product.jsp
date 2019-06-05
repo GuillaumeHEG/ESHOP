@@ -20,7 +20,7 @@
         <form method="post" action="${pageContext.request.contextPath}/Caddie/add">
             <button class="btn-caddie-product" name="idProduct" value="<%= request.getParameter("idProduct") %>" type="submit">
                 <p><%= request.getParameter("priceProduct") %></p>
-                <img src="${pageContext.request.contextPath}/Pictures/Caddie.png" alt="Checkout">
+                <img src="${pageContext.request.contextPath}/Pictures/Caddie.png">
             </button>
         </form>
     </div>

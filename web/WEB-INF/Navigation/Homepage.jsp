@@ -35,7 +35,7 @@
                         List<Product> lstPrd = (List<Product>) request.getAttribute("lstProducts");
                         for (int i=0; i<3; i++) {
                             Product prd = lstPrd.get(i);
-                            System.out.println(prd);%>
+                    %>
                             <jsp:include page="/WEB-INF/SharedComponents/Product.jsp" >
                                 <jsp:param name="idProduct" value="<%=prd.getId()%>" />
                                 <jsp:param name="nameProduct" value="<%=prd.getName()%>" />

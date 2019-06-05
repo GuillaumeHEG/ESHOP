@@ -1,6 +1,5 @@
 package ch.hesge.gouninet.Filter;
 
-
 import ch.hesge.gouninet.Model.Product;
 import ch.hesge.gouninet.Services.ProductServices;
 
@@ -11,13 +10,12 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.util.Map;
 
-@WebFilter("/Caddie/add")
-public class AddFilter implements Filter {
-
+@WebFilter("/Caddie/deleterow")
+public class DeleteRowFilter implements Filter {
     private final ProductServices productServices;
 
     @Inject
-    public AddFilter(ProductServices productServices) {
+    public DeleteRowFilter(ProductServices productServices) {
         this.productServices = productServices;
     }
 
@@ -31,11 +29,7 @@ public class AddFilter implements Filter {
         HttpServletRequest req = (HttpServletRequest) servletRequest;
         Product product = productServices.getProduct(Integer.parseInt(req.getParameter("idProduct")));
         Map<Product, Integer> caddie = (Map<Product, Integer>) req.getSession().getAttribute("caddie");
-        if (caddie.containsKey(product)) {
-            caddie.replace(product, caddie.get(product), caddie.get(product)+1);
-        } else {
-            caddie.put(product, 1);
-        }
+        caddie.remove(product);
         filterChain.doFilter(servletRequest, servletResponse);
     }
 

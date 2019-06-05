@@ -7,26 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3391029e-b999-4b59-815c-bc0c6339bde1" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/DeleteRowFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/RemoveFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/Navigation/DtlProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/Navigation/DtlProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GouninetGuillaume_SHOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GouninetGuillaume_SHOP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/Styles/EShop.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/Styles/EShop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/Navigation/Checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/Navigation/Checkout.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/Navigation/Homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/Navigation/Homepage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/SharedComponents/Caddie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/SharedComponents/Caddie.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/SharedComponents/Product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/SharedComponents/Product.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/classes/ch/hesge/gouninet/Filter/AddFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/classes/ch/hesge/gouninet/Filter/AddFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/classes/ch/hesge/gouninet/Services/ProductServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/classes/ch/hesge/gouninet/Services/ProductServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/classes/ch/hesge/gouninet/Servlet/DtlProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/classes/ch/hesge/gouninet/Servlet/DtlProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/classes/ch/hesge/gouninet/Model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/classes/ch/hesge/gouninet/Model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/classes/ch/hesge/gouninet/Servlet/CheckoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GouninetGuillaume_SHOP_war_exploded/WEB-INF/classes/ch/hesge/gouninet/Servlet/CheckoutServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GouninetGuillaume_SHOP/ch/hesge/gouninet/Filter/AddFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GouninetGuillaume_SHOP/ch/hesge/gouninet/Filter/AddFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GouninetGuillaume_SHOP/ch/hesge/gouninet/Services/ProductServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GouninetGuillaume_SHOP/ch/hesge/gouninet/Services/ProductServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GouninetGuillaume_SHOP/ch/hesge/gouninet/Servlet/DtlProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GouninetGuillaume_SHOP/ch/hesge/gouninet/Servlet/DtlProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GouninetGuillaume_SHOP/ch/hesge/gouninet/Model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GouninetGuillaume_SHOP/ch/hesge/gouninet/Model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GouninetGuillaume_SHOP/ch/hesge/gouninet/Servlet/CheckoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GouninetGuillaume_SHOP/ch/hesge/gouninet/Servlet/CheckoutServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/AddFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/AddFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/hesge/gouninet/Services/ProductServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/hesge/gouninet/Services/ProductServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/DtlProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/DtlProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/LstProductsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/LstProductsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/hesge/gouninet/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/hesge/gouninet/Model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/CheckoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/CheckoutServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Styles/EShop.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/Styles/EShop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Navigation/DtlProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/Navigation/DtlProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Navigation/Checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/Navigation/Checkout.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/Navigation/Homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/Navigation/Homepage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Navigation/LstProducts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/Navigation/LstProducts.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/SharedComponents/Caddie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/SharedComponents/Caddie.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Navigation/Payment.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/Navigation/Payment.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/SharedComponents/Product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/SharedComponents/Product.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,85 +42,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/Styles/EShop.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Navigation/Homepage.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Navigation/LstProducts.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/HomepageServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/LstProductsServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-              <folding>
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/DtlProductServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="24" column="95" selection-start-line="24" selection-start-column="95" selection-end-line="24" selection-end-column="95" />
-              <folding>
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/SharedComponents/Product.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="20" column="108" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="108" />
+            <state relative-caret-position="57">
+              <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="93" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Navigation/DtlProduct.jsp">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Navigation/Checkout.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="23" column="103" selection-start-line="23" selection-start-column="103" selection-end-line="23" selection-end-column="103" />
+            <state relative-caret-position="243">
+              <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/PaymentServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Navigation/Payment.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="63" column="63" selection-start-line="63" selection-start-column="63" selection-end-line="63" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/DeleteRowFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,22 +95,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/AddFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-149">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="50" />
+            <state relative-caret-position="301">
+              <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/SharedComponents/Caddie.jsp">
+        <entry file="file://$PROJECT_DIR$/web/Styles/EShop.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="308">
+              <caret line="229" column="20" selection-start-line="229" selection-start-column="20" selection-end-line="229" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/RemoveFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="31" selection-end-column="103" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/HomepageServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/CaddieServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,6 +172,7 @@
       <find>container-pr</find>
       <find>container-prds</find>
       <find>homepage</find>
+      <find>CHECK</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,9 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/web/WEB-INF/Accueil.html" />
         <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/AccueilServlet.java" />
         <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/AccueilServlet.java" />
@@ -192,7 +194,6 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/DétailProduit.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/ListeProduits.jsp" />
         <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/ForwardServlet.java" />
-        <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/CheckoutServlet.java" />
         <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/DtlProduitsServlet.java" />
         <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/PaiementServlet.java" />
         <option value="$PROJECT_DIR$/web/Styles/Flexbox.scss" />
@@ -208,25 +209,29 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/Navigation/LstProduits.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/Navigation/Paiement.jsp" />
         <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/PaymentServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/Navigation/Checkout.jsp" />
         <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Listener/SessionListener.java" />
         <option value="$PROJECT_DIR$/src/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/CaddieServlet.java" />
         <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/HomepageServlet.java" />
         <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Listener/DataListener.java" />
-        <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Model/Product.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/Navigation/Homepage.jsp" />
         <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Services/ProductServices.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/SharedComponents/Caddie.jsp" />
-        <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/AddFilter.java" />
         <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/ProductFilter.java" />
         <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/ProductServlet.java" />
         <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/DtlProductServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/SharedComponents/Product.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/Navigation/DtlProduct.jsp" />
         <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/LstProductsServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/Navigation/LstProducts.jsp" />
+        <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/CaddieServlet.java" />
+        <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/CheckoutServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/Navigation/Homepage.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/SharedComponents/Product.jsp" />
+        <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Model/Product.java" />
+        <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/AddFilter.java" />
         <option value="$PROJECT_DIR$/web/Styles/EShop.css" />
+        <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/RemoveFilter.java" />
+        <option value="$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/DeleteRowFilter.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/Navigation/Checkout.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/Navigation/Payment.jsp" />
       </list>
     </option>
   </component>
@@ -238,8 +243,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
     <option name="width" value="1440" />
     <option name="height" value="765" />
   </component>
@@ -251,8 +256,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,6 +350,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -486,29 +491,30 @@
       <workItem from="1559589058697" duration="6049000" />
       <workItem from="1559637400808" duration="13153000" />
       <workItem from="1559669236442" duration="5150000" />
-      <workItem from="1559720385209" duration="27717000" />
+      <workItem from="1559720385209" duration="27768000" />
+      <workItem from="1559759283721" duration="12616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133600000" />
+    <option name="totallyTimeSpent" value="146267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Persistence" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.86901766" visible="true" weight="0.22024292" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8668122" visible="true" weight="0.22834007" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.13098237" side_tool="true" visible="true" weight="0.22024292" />
+      <window_info id="Web" order="7" sideWeight="0.13318777" side_tool="true" visible="true" weight="0.22834007" />
+      <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.294849" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18650089" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3285968" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -563,38 +569,10 @@
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/Error/500.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Navigation/Payment.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/CheckoutServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/PaymentServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Navigation/Checkout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -616,16 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/CaddieServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,43 +646,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/ProductFilter.java" />
+    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/ProductServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/LstProductsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/DtlProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="95" selection-start-line="24" selection-start-column="95" selection-end-line="24" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Navigation/LstProducts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/SharedComponents/Caddie.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="135">
+          <caret line="17" column="102" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="102" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/ProductFilter.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Navigation/DtlProduct.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="145">
+          <caret line="23" column="103" selection-start-line="23" selection-start-column="103" selection-end-line="23" selection-end-column="103" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/ProductServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/CheckoutServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" column="90" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="28" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Navigation/Homepage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="219">
+          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
             <element signature="e#679#680#0" expanded="true" />
             <element signature="e#712#713#0" expanded="true" />
             <element signature="e#740#741#0" expanded="true" />
@@ -734,86 +723,98 @@
             <element signature="e#1234#1235#0" expanded="true" />
             <element signature="e#1272#1273#0" expanded="true" />
             <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1841#1842#0" expanded="true" />
+            <element signature="e#1911#1912#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/AddFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/CaddieServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="50" />
+        <state relative-caret-position="85">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/SharedComponents/Product.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="20" column="108" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Navigation/DtlProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="23" column="103" selection-start-line="23" selection-start-column="103" selection-end-line="23" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/LstProductsServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/DtlProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="95" selection-start-line="24" selection-start-column="95" selection-end-line="24" selection-end-column="95" />
-          <folding>
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/HomepageServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="50" />
+        <state relative-caret-position="53">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Navigation/LstProducts.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Navigation/Homepage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/Styles/EShop.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="308">
+          <caret line="229" column="20" selection-start-line="229" selection-start-column="20" selection-end-line="229" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/RemoveFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="31" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/AddFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Filter/DeleteRowFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Navigation/Checkout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/hesge/gouninet/Servlet/PaymentServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Navigation/Payment.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="63" column="63" selection-start-line="63" selection-start-column="63" selection-end-line="63" selection-end-column="63" />
         </state>
       </provider>
     </entry>

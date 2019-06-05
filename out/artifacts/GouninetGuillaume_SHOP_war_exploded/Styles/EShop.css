@@ -224,6 +224,16 @@ td, th{
     margin:0;
 }
 
+.table-cell-btn-delete-checkout{
+    background:none;
+    border:none;
+    margin-top:10px;
+}
+
+.img-bin-checkout{
+    height: 23px;
+    width:auto;
+}
 /* ==================================================== */
 /* Detail Product */
 /* ==================================================== */

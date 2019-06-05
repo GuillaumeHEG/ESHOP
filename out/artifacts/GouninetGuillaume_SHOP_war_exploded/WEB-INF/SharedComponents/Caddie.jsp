@@ -15,10 +15,9 @@
         <img class="img-caddie" src="${pageContext.request.contextPath}/Pictures/Caddie.png" width="50" height="50">
     </a>
     <%
-        Map<Product, Integer> c = (Map<Product, Integer>) request.getAttribute("caddie");
-        int sum =0;
+        Map<Product, Integer> c = (Map<Product, Integer>) request.getSession().getAttribute("caddie");
+        int sum = 0;
         if(c == null) {
-            //Nothing to do
         }else{
             List<Integer> values = new ArrayList<>(c.values());
             for (Integer value: values) {

@@ -37,9 +37,10 @@
                             Product prd = lstPrd.get(i);
                             System.out.println(prd);%>
                             <jsp:include page="/WEB-INF/SharedComponents/Product.jsp" >
-                                <jsp:param name="idProduit" value="<%=prd.getId()%>" />
-                                <jsp:param name="nomProduit" value="<%=prd.getName()%>" />
-                                <jsp:param name="prixProduit" value="<%=prd.getPrice()%>" />
+                                <jsp:param name="idProduct" value="<%=prd.getId()%>" />
+                                <jsp:param name="nameProduct" value="<%=prd.getName()%>" />
+                                <jsp:param name="priceProduct" value="<%=prd.getPrice()%>" />
+                                <jsp:param name="urlProduct" value="<%=prd.getUrl()%>" />
                             </jsp:include>
                             <%} %>
                 </div>

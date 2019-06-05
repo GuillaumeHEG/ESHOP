@@ -32,4 +32,9 @@ public class ProductServices {
             List<Product> products = q.getResultList();
             return products;
         }
+
+        public Product getProduct(int id) {
+            Product p = em.find(Product.class, id);
+            return p;
+        }
 }

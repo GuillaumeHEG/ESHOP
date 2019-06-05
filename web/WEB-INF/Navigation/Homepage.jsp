@@ -1,4 +1,6 @@
-<%--
+<%@ page import="ch.hesge.gouninet.Model.Product" %>
+<%@ page import="java.util.List" %>
+<%@ page import="java.util.ArrayList" %><%--
   Created by IntelliJ IDEA.
   User: guillaum.gouninet
   Date: 17.05.2019
@@ -29,13 +31,17 @@
                     </div>
                 </div>
                 <div class="container-prds">
-                    <% for (int i=0; i<3; i++) { %>
-                    <jsp:include page="/WEB-INF/SharedComponents/Product.jsp" >
-                        <jsp:param name="idProduit" value="#" />
-                        <jsp:param name="nomProduit" value="#" />
-                        <jsp:param name="prixProduit" value="#" />
-                    </jsp:include>
-                    <%} %>
+                    <%
+                        List<Product> lstPrd = (List<Product>) request.getAttribute("lstProducts");
+                        for (int i=0; i<3; i++) {
+                            Product prd = lstPrd.get(i);
+                            System.out.println(prd);%>
+                            <jsp:include page="/WEB-INF/SharedComponents/Product.jsp" >
+                                <jsp:param name="idProduit" value="<%=prd.getId()%>" />
+                                <jsp:param name="nomProduit" value="<%=prd.getName()%>" />
+                                <jsp:param name="prixProduit" value="<%=prd.getPrice()%>" />
+                            </jsp:include>
+                            <%} %>
                 </div>
             </a>
         </div>

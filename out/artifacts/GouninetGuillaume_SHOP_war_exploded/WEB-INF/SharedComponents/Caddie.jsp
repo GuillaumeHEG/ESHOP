@@ -1,4 +1,8 @@
-<%--
+<%@ page import="ch.hesge.gouninet.Model.Product" %>
+<%@ page import="java.util.Map" %>
+<%@ page import="java.util.List" %>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="java.util.Collection" %><%--
   Created by IntelliJ IDEA.
   User: guill
   Date: 17.05.2019
@@ -10,8 +14,17 @@
     <a href="${pageContext.request.contextPath}/Checkout">
         <img class="img-caddie" src="${pageContext.request.contextPath}/Pictures/Caddie.png" width="50" height="50">
     </a>
-    <p class="sum-caddie-mnu">${nbPrdCaddie}</p>
+    <%
+        Map<Product, Integer> c = (Map<Product, Integer>) request.getAttribute("caddie");
+        int sum =0;
+        if(c == null) {
+            //Nothing to do
+        }else{
+            List<Integer> values = new ArrayList<>(c.values());
+            for (Integer value: values) {
+                sum += value;
+            }
+        }
+    %>
+    <p class="sum-caddie-mnu"><%= sum %></p>
 </div>
-<%--<% Caddie c = new Caddie(); %>
-<label><%=c.getNbTotal()%></label>
---%>

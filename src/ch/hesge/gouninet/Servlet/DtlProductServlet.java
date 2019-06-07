@@ -25,6 +25,6 @@ public class DtlProductServlet extends HttpServlet {
         Product product = productServices.getProduct(Integer.parseInt(req.getParameter("id")));
         req.setAttribute("product", product);
         resp.setContentType("text/html");
-        req.getRequestDispatcher("/WEB-INF/Navigation/DtlProduct.jsp").include(req, resp);
+        req.getRequestDispatcher("/WEB-INF/Navigation/dtlProduct.jsp").include(req, resp);
     }
 }

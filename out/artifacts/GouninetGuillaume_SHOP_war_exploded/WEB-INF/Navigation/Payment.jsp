@@ -16,7 +16,10 @@
             text-align: center;
             font-family: "Open Sans";
         }
-
+         h5{
+             text-align: center;
+             font-family: "Open Sans";
+         }
         form {
             width: 350px;
             margin: 0 auto;
@@ -52,17 +55,20 @@
     </style>
 </head>
 <body>
-    <div class="checkout">
+    <div class="container">
         <h4>
-            Checkout - 1998 CHF
+            TOTAL : <%= request.getSession().getAttribute("sumCaddie").toString() %> .-
         </h4>
-        <form>
-            <input placeholder="Name on card" type="text" />
-            <input placeholder="Email" type="email" />
-            <input placeholder="Card number" type="text" />
-            <input placeholder="MM/YY" type="month" />
-            <button action="${pageContext.request.contextPath}/" type="submit">Pay Now</button>
+        <h5>
+            <a href="${pageContext.request.contextPath}/">Retour au magasin</a>
+        </h5>
+        <form action="${pageContext.request.contextPath}/Payment" method="post">
+            <input placeholder="Name on card" type="text"  required/>
+            <input placeholder="Email" type="email" required/>
+            <input placeholder="Card number" type="text" required/>
+            <input placeholder="MM/YY" type="month" required/>
+            <button  type="submit">Payer</button>
         </form>
-</div>
+    </div>
 </body>
 </html>

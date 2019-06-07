@@ -15,14 +15,13 @@
     </head>
 <body>
     <div class="menu-top">
-        <jsp:include page="/WEB-INF/SharedComponents/Menu.jsp" />
+        <jsp:include page="/WEB-INF/SharedComponents/menu.jsp" />
     </div>
         <div class="homepage">
             <a href ="${pageContext.request.contextPath}/LstProducts" class="link-description-homepage">
-                <!-- content and sidebar are swapped. They can be made to show in the order above with CSS -->
                 <div class="container-description-homepage">
                     <div>
-                        <h1 class="title-txt-homepage">WELCOME TO E-SHOP</h1>
+                        <h1 class="title-txt-homepage">BIENVENUE SUR VOTRE NOUVEAU E-SHOP</h1>
                     </div>
                     <div class="description-txt-homepage">
                         <p>
@@ -35,14 +34,15 @@
                         List<Product> lstPrd = (List<Product>) request.getAttribute("lstProducts");
                         for (int i=0; i<3; i++) {
                             Product prd = lstPrd.get(i);
+                            String picture = prd.getUrl().get(0).toString();
                     %>
-                            <jsp:include page="/WEB-INF/SharedComponents/Product.jsp" >
-                                <jsp:param name="idProduct" value="<%=prd.getId()%>" />
-                                <jsp:param name="nameProduct" value="<%=prd.getName()%>" />
-                                <jsp:param name="priceProduct" value="<%=prd.getPrice()%>" />
-                                <jsp:param name="urlProduct" value="<%=prd.getUrl()%>" />
-                            </jsp:include>
-                            <%} %>
+                        <jsp:include page="/WEB-INF/SharedComponents/product.jsp" >
+                            <jsp:param name="idProduct" value="<%=prd.getId()%>" />
+                            <jsp:param name="nameProduct" value="<%=prd.getName()%>" />
+                            <jsp:param name="priceProduct" value="<%=prd.getPrice()%>" />
+                            <jsp:param name="urlProduct" value="<%=picture%>" />
+                        </jsp:include>
+                    <%} %>
                 </div>
             </a>
         </div>

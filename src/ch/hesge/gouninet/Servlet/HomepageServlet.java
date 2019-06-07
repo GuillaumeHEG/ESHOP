@@ -24,10 +24,10 @@ public class HomepageServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //Voir pour bouger l'attributes dans un listener de session.
+        //Voir pour bouger l'attributes dans un Listener de session.
         List<Product> p = productServices.getProducts();
         req.setAttribute("lstProducts", p);
         resp.setContentType("text/html");
-        req.getRequestDispatcher("WEB-INF/Navigation/Homepage.jsp").forward(req,resp);
+        req.getRequestDispatcher("WEB-INF/Navigation/homepage.jsp").forward(req,resp);
     }
 }

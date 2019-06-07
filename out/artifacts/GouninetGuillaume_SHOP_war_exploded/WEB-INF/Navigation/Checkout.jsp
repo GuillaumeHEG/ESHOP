@@ -23,6 +23,7 @@
                 Product p = (Product)mapentry.getKey();
                 int qte = mapentry.getValue();
                 sumCaddie += qte*p.getPrice();
+
         %>
             <tr class="row">
                <td class="checkout-td-one">
@@ -44,23 +45,25 @@
                <td class="checkout-td-three">
                    <form method="post" action="${pageContext.request.contextPath}/Caddie/deleterow">
                        <button class="table-cell-btn-delete-checkout" name="idProduct" value="<%=p.getId()%>" type="submit">
-                           <img class="img-bin-checkout" src="${pageContext.request.contextPath}/Pictures/trash-2.png">
+                           <img class="img-bin-checkout" src="${pageContext.request.contextPath}/Pictures/trash.png">
                        </button>
                    </form>
                </td>
                <td class="checkout-td-four">
-                   <%=p.getPrice()*qte%>
+                   CHF <%=p.getPrice()*qte%> .-
                </td>
             </tr>
-           <%}%>
+           <%}request.getSession().setAttribute("sumCaddie", sumCaddie);%>
         </table>
         <div class="container-sum-checkout">
             <h3>Total </h3>
-            <h3><%=sumCaddie%></h3>
+            <h3>CHF <%=sumCaddie%> .-</h3>
         </div>
         <div class="container-pay-checkout">
-            <p><a href="${pageContext.request.contextPath}/">Back to shipping</a></p>
-            <h3><a href="${pageContext.request.contextPath}/Payment">Pay</a></h3>
+            <p><a href="${pageContext.request.contextPath}/">Retour au magasin</a></p>
+            <%if(sumCaddie>0){%>
+                <h3><a href="${pageContext.request.contextPath}/Payment">Payer</a></h3>
+           <%} %>
         </div>
     </div>
 </body>

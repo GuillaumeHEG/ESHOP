@@ -28,6 +28,6 @@ public class LstProductsServlet extends HttpServlet {
         resp.setContentType("text/html");
         List<Product> p = productServices.getProducts();
         req.setAttribute("lstProducts", p);
-        req.getRequestDispatcher("WEB-INF/Navigation/LstProducts.jsp").forward(req,resp);
+        req.getRequestDispatcher("WEB-INF/Navigation/lstProducts.jsp").forward(req,resp);
     }
 }

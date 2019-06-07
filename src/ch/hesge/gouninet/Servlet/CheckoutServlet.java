@@ -17,6 +17,6 @@ public class CheckoutServlet extends HttpServlet {
         Map<Product, Integer> lstCaddie = (Map<Product, Integer>) req.getSession().getAttribute("caddie");
         req.setAttribute("lstCaddie", lstCaddie);
         resp.setContentType("text/html");
-        req.getRequestDispatcher("WEB-INF/Navigation/Checkout.jsp").forward(req,resp);
+        req.getRequestDispatcher("WEB-INF/Navigation/checkout.jsp").forward(req,resp);
     }
 }

@@ -1,4 +1,6 @@
-<%--
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="ch.hesge.gouninet.Model.Product" %>
+<%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: guill
   Date: 17.05.2019
@@ -9,7 +11,7 @@
 
 <div class="container-product">
     <a class="container-product-link" href="${pageContext.request.contextPath}/DtlProduct/?id=<%= request.getParameter("idProduct") %>">
-        <img class="img-background-product" src="${pageContext.request.contextPath}/Pictures/<%= request.getParameter("urlProduct") %>" alt="<%= request.getParameter("urlProduct")%>">
+        <img class="img-background-product" src="${pageContext.request.contextPath}/Pictures/<%= request.getParameter("urlProduct") %>">
         <div class="container-title-product" >
             <div class="title-product">
                 <p class="title-text-product"><%= request.getParameter("nameProduct") %></p>
@@ -20,7 +22,7 @@
         <form method="post" action="${pageContext.request.contextPath}/Caddie/add">
             <button class="btn-caddie-product" name="idProduct" value="<%= request.getParameter("idProduct") %>" type="submit">
                 <p><%= request.getParameter("priceProduct") %></p>
-                <img src="${pageContext.request.contextPath}/Pictures/Caddie.png">
+                <img src="${pageContext.request.contextPath}/Pictures/caddie.png">
             </button>
         </form>
     </div>

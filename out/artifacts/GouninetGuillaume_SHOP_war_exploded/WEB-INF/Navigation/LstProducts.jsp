@@ -14,18 +14,21 @@
     </head>
     <body>
     <div class="menu-top">
-        <jsp:include page="/WEB-INF/SharedComponents/Menu.jsp" />
+        <jsp:include page="/WEB-INF/SharedComponents/menu.jsp" />
     </div>
+        <div class="container-title-thanks">
+            <% if(request.getParameter("message")!=null){ %><h4 class="title-payment-thanks">MERCI POUR VOTRE COMMANDE!</h4><%}%>
+        </div>
         <div class="container-lstProducts">
             <%
                 List<Product> lstPrd = (List<Product>) request.getAttribute("lstProducts");
                 for (Product prd : lstPrd) {
             %>
-            <jsp:include page="/WEB-INF/SharedComponents/Product.jsp" >
+            <jsp:include page="/WEB-INF/SharedComponents/product.jsp" >
                 <jsp:param name="idProduct" value="<%=prd.getId()%>" />
                 <jsp:param name="nameProduct" value="<%=prd.getName()%>" />
                 <jsp:param name="priceProduct" value="<%=prd.getPrice()%>" />
-                <jsp:param name="urlProduct" value="<%=prd.getUrl()%>" />
+                <jsp:param name="urlProduct" value="<%=prd.getUrl().get(0).toString()%>" />
             </jsp:include>
             <%} %>
         </div>

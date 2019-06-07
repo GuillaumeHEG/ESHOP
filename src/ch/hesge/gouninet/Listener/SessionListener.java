@@ -12,6 +12,7 @@ public class SessionListener implements HttpSessionListener {
     @Override
     public void sessionCreated(HttpSessionEvent httpSessionEvent) {
         httpSessionEvent.getSession().setAttribute("caddie", new HashMap<Product, Integer>());
+        httpSessionEvent.getSession().setAttribute("sumCaddie", "");
     }
 
     @Override

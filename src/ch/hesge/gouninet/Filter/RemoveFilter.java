@@ -30,7 +30,9 @@ public class RemoveFilter implements Filter {
         HttpServletRequest req = (HttpServletRequest) servletRequest;
         Product product = productServices.getProduct(Integer.parseInt(req.getParameter("idProduct")));
         Map<Product, Integer> caddie = (Map<Product, Integer>) req.getSession().getAttribute("caddie");
-        caddie.replace(product, caddie.get(product),caddie.get(product)-1);
+        if(caddie.get(product)>1) {
+            caddie.replace(product, caddie.get(product), caddie.get(product) - 1);
+        }
         filterChain.doFilter(servletRequest, servletResponse);
     }
 

@@ -9,8 +9,8 @@
 <div class ="container-mnu">
     <div class="icon-mnu">
         <a href="${pageContext.request.contextPath}/">
-            <img class="img-mnu" src="${pageContext.request.contextPath}/Pictures/Home.png" width="50" height="50">
+            <img class="img-mnu" src="${pageContext.request.contextPath}/Pictures/home.png" width="50" height="50">
         </a>
     </div>
-    <jsp:include page="/WEB-INF/SharedComponents/Caddie.jsp" />
+    <jsp:include page="/WEB-INF/SharedComponents/caddie.jsp" />
 </div>

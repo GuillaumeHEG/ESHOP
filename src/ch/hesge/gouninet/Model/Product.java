@@ -1,9 +1,9 @@
 package ch.hesge.gouninet.Model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 import static javax.persistence.GenerationType.IDENTITY;
@@ -15,16 +15,18 @@ public class Product {
     private int id;
     private double price;
     private String name;
+    @Column(length = 5000)
     private String description;
-    private String url;
+    @ElementCollection
+    private List<String> url;
 
     public Product(){}
 
-    public Product(double price, String name, String description, String url) {
+    public Product(double price, String name, String description, List<String> url) {
         this.price = price;
         this.name = name;
         this.description = description;
-        this.url=url;
+        this.url= url;
     }
 
     public int getId() {
@@ -59,11 +61,11 @@ public class Product {
         this.description = description;
     }
 
-    public String getUrl() {
+    public List<String> getUrl() {
         return url;
     }
 
-    public void setUrl(String url) {
+    public void setUrl(List url) {
         this.url = url;
     }
 

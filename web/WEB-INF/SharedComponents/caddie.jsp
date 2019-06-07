@@ -12,7 +12,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div class ="container-caddie">
     <a href="${pageContext.request.contextPath}/Checkout">
-        <img class="img-caddie" src="${pageContext.request.contextPath}/Pictures/Caddie.png" width="50" height="50">
+        <img class="img-caddie" src="${pageContext.request.contextPath}/Pictures/caddie.png" width="50" height="50">
     </a>
     <%
         Map<Product, Integer> c = (Map<Product, Integer>) request.getSession().getAttribute("caddie");
